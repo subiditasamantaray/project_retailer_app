@@ -1,0 +1,17 @@
+<mat-nav-list>
+    <div class="logo py-4">
+        <!-- <img src="../../../../assets/images/login/logo2_footer.png" alt="Company Logo" /> -->
+    </div>
+    <mat-divider></mat-divider>
+    
+
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="./dashboard">
+        <mat-icon>dashboard</mat-icon> Dashboard
+    </a>
+    <ul mat-list-item class="list-group">
+        <div *ngFor="let menu of menus">
+            <li *ngIf="1==1"  class="list-group-item"><a class="nav-link" href="{{menu.link}}"><mat-icon>{{menu.url}}</mat-icon>{{menu.menu}}</a></li>
+        </div>
+    </ul>
+</mat-nav-list>

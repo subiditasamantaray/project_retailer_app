@@ -1,0 +1,41 @@
+<mat-toolbar>
+    <mat-toolbar-row class="justify-content-between" style="color: white;">
+        <button mat-icon-button (click)="toggleSidebar()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <div class="row mr- ml-auto" style="z-index: 1;">
+            <!-- <mat-icon class="user-image-icon ml-1" style="color: white;">adb</mat-icon> -->
+            <mat-select #mode value="side" >
+                <mat-option value="over">ID</mat-option>
+                <mat-option value="push">LogOut</mat-option><mat-icon>exit_to_app</mat-icon>
+            </mat-select>
+            <!-- <mat-form-field appearance="fill">
+                <mat-label>Sidenav mode</mat-label>
+                <mat-select #mode value="side">
+                    <mat-option value="side">Side</mat-option>
+                    <mat-option value="over">Over</mat-option>
+                    <mat-option value="push">Push</mat-option>
+                </mat-select>
+            </mat-form-field> -->
+            <!-- <ul class="row m-0 align-items-center"> -->
+                <!-- <li style="position: block ;"> -->
+
+                    
+                    <!-- <button mat-button [matMenuTriggerFor]="menu" class="user mt-2 d-flex align-items-center">
+                        <img src="../../../../assets/images/login/logo@2x.png" alt="" class="user-image mr-1 p-2" />
+
+
+                        <mat-icon class="user-image-icon ml-1">keyboard_arrow_down</mat-icon>
+                        <mat-menu #menu="matMenu">
+                            <button mat-menu-item>
+                                <mat-icon>exit_to_app</mat-icon>
+                                Logout
+                            </button>
+                        </mat-menu>
+                    </button> -->
+
+                <!-- </li> -->
+            <!-- </ul> -->
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

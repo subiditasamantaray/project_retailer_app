@@ -1,0 +1,50 @@
+table {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 20%;
+  }
+
+  .table td,.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  // .table th h2 {
+  //   text-align: center;
+  // }
+
+  .table tr:hover {background-color: #ddd;font-style: italic;font-weight: bolder;}
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aaaa;
+    color: white;
+    text-align: center;
+  }
+
+  .filter{
+    margin-bottom: 0px;
+    width: 230px;
+    height: 10px;
+  }
+
+  
+  
+  // .th-center{
+  //   text-align: center;
+  // }
+  // .th-left{
+  //   text-align: left;
+  // }
+  // .th-right{
+  //   text-align: right;
+  // }
+  
